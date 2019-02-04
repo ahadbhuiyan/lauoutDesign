@@ -1,0 +1,499 @@
+body{
+	margin-left:10px;
+	margin-right:15px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	font-family:verdana;
+}
+
+header{
+	width:100%;
+	height:150px;
+	background-color:#e6eeff;
+}
+.header_left{
+	width:20%;
+	height:150px;
+	float:left;
+}
+.header_left>img{
+	height:120px;
+	width:150px;
+}
+.image{
+	display:block; 
+	margin:auto; 
+	text-align:center;
+}
+.header_middle{
+	width:45%;
+	height:130px;
+	float:left;
+}
+.header_right{
+	width:35%;
+	height:130px;
+	float:right;
+	color:black;
+}
+
+.support{
+	font-size:13px;
+	font-family:verdana;
+	float:left;
+	margin-top:40px;
+	width:68%;
+	padding-left:10px;
+	height:50px;
+
+}
+.chart_img{
+	float:left;
+	margin-top:40px;
+	padding:0px;
+	height:50px;
+	width:75px;
+	font-size:13px;
+	font-family:verdana;
+}
+.chart_img >img{
+	height:25px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.nav_area{
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+	background-color:lightgreen;
+}
+.nav>li>a{
+	color:black;
+	padding:5px;
+	margin:20px;
+	
+}
+.dropdown-menu{
+	background-color:lightgreen;
+	font-weight:bold;
+	color:black;
+}
+.dropdown-menu>li>a{
+	font-weight:bold;
+	padding:10px;
+}
+.rating i{
+	display:inline;
+}
+.fa.fa-star.color{
+    color: #FF8900;
+}
+
+div>a{
+	margin:5px;
+	padding:5px;
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+#myCarousel{
+	height:350px;
+	width:100%;
+
+}
+.carousel-control{
+	width:0px;
+	color:black;
+	padding:0px;
+}
+
+.main_log_reg{
+	margin:20px;
+	width:100%;
+	height:700px;
+	Padding:20px;
+}
+
+.log_label{
+	width:50%;
+	height:20px;
+	float:left; 
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.reg_label{
+	width:50%;
+	height:20px;
+	float:right;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+}
+.login{
+	width:48%;
+	height:600px;;
+	border:2px solid;
+	margin:10px;
+	float:left; clear;
+	form-align:center;
+}
+.register{
+	width:48%;
+	height:600px;
+	border:2px solid;
+	margin:10px;
+	float:left;
+}
+.last_part{
+	width:100%;
+	height:220px;
+	background-color:lightgray;
+	margin:0px;
+}
+.last_part>div>h4{
+	font-weight:bold;
+}
+
+.payment{
+	width:23%;
+	height:200px;
+	float:left; 
+	margin:5px;
+}
+
+.quick_links{
+	width:23%;
+	height:200px;
+	float:left; 
+	margin:5px;
+
+}
+.quick_links>a {
+	color:black;
+}
+.social{
+	width:23%;
+	height:200px;
+	float:left; 
+	margin:5px;
+}
+.contract{
+	width:250px;
+	height:200px;
+	float:left;
+	margin:5px;
+}
+footer{
+	height:50px;
+	width:100%;
+	background-color:black;
+	color:white;
+	text-align:center;
+	Padding-top:15px;
+}
+.chart_img>img{
+	margin:20px;
+}
+.main_area{
+	width:100%;
+	height:1940px;
+	padding:10px;
+
+}
+.main_left{
+	width:78%;
+	float:left;
+	padding:5px;
+	
+}
+.main_right{
+	width:20%;
+	float:left;
+	margin:10px;
+	height:1200px;
+}
+.main_right_top{
+	width:268px;
+	border:2px solid black;
+	height:1010px;
+	background-color:#b3ffec;
+	margin-top:50px;
+	padding:5px;
+}
+.media{
+	width:268px;
+	height:150px;
+	padding-top:20px;
+}
+.media_size>img{
+	width:100px;
+	height:80px;
+}
+.media-body>p{
+	color:blue;
+}
+.line{
+	border:1px solid;
+	width:90%;
+	margin:20px;
+	
+}
+.main_right_middle{
+	width:270px;
+	border:2px solid black;
+	margin-top:50px;
+	padding:5px;
+	background-color:#b3ffec;
+	height:270px;
+}
+.main_right_bottom{
+	width:270px;
+	border:2px solid black;
+	margin-top:10px;
+	padding:5px;
+	background-color:#b3ffec;
+	height:130px;
+}
+
+@media screen and (max-width: 650px) 
+{
+    body 
+	{
+        width:100%;
+    }
+}
+.left_area{
+	width:100%;
+	height:480px;
+	margin-top:30px;
+
+}
+.deal_view{
+	height:30px;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+.day_deal{
+	width:50%;
+	height:30px;
+	float:left;
+	font-size:17px;
+	font-weight:bold;
+}
+.view_all{
+	width:50%;
+	height:30px;
+	float:left;
+	text-align:right;
+	font-size:15px;
+	font-weight:bold;
+	color:black;
+}
+.hr{
+	border:2px solid;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.product_des{
+	width:100%;
+	height:300px;
+	margin-top:30px;
+}
+.thumbnail{
+	height:350px;
+}
+.thumbnail>img{
+	width:320px; 
+	height:250px;
+
+}
+.thumbnail>p{
+	font-weight:bold;
+	color:blue;
+}
+.price{
+	float:left;
+}
+.off{
+	float:right;
+	text-align:right;
+}
+.btn{
+	background-color:blue;
+	color:white;
+	float:right;
+	margin-top:0px;
+	
+}
+			
+.catagory_body{
+	width:100%;
+	height:1650px;
+	margin-top:10px;
+	margin-right:5px;
+
+}
+.catagory_left{
+	width:20%;
+	height:800px;
+	margin-top:25px;
+	float:left; 
+}
+.catagory_right{
+	width:78%;
+	height:1220px;
+	float:left;
+	padding:10px;
+	
+}
+.thumbnail_catagory_page{
+	height:360px;
+	margin-top:20px;
+	
+}
+.page_pagination{
+	width:100%;
+	height:100px;
+
+}
+.pagination_area{
+	width:100%;
+	height:100px;
+	float:left;
+	text-align:right;
+}
+.shop_by_product{
+	width:250px;
+	height:500px;
+	border:2px solid;
+	background-color:#b3ffec;
+}
+.shop_by_product>p{
+	font-size:17px; 
+	font-weight:bold; 
+	text-align:center; 
+	padding:5px;
+	background-color:black;
+	color:white;
+}
+.shop_by_product>div{
+	height:200px; 
+}
+.shop_by_product>div>ul>li{
+	list-style:none;
+	color:black;
+	padding:2px;
+	font-weight:bold;
+}
+.scroll{
+	overflow:scroll;
+	height:200px;
+	padding:5px;
+}
+.discount{
+	width:250px;
+	height:100px;
+	border:2px solid;
+	margin-top:30px;
+	text-align:center;
+	padding-top:20px;
+	background-color:#b3ffec;
+	font-weight:bold;
+}
+
+.featured_product{
+	Width:100%;
+	height:250px;
+}
+.featured_product>h2{
+	color:blue;
+}
+.featured_product_image{
+	width:49%;
+	height:500px;
+	border:1px solid;
+	float:left;
+	display:block;
+	margin:auto;
+	text-align:center;
+}
+.featured_product_title{
+	width:49%;
+	height:500px;
+	float:right;
+}
+.featured_product_title>h2{
+	color:blue;
+}
+.feature_image_title{
+	width:100%;
+	height:550px;
+}
+.type_select{
+	width:49%;
+	height:30px;
+
+}
+#select_product{
+	width:150px; 
+	height:20px;
+}
+.type_select>div{
+	width:100px; 
+	float:left;
+}
+.qty_button{
+	width:49%;
+	height:30px;
+	margin-right:20px;
+}
+.qty_button>div{
+	width:100px; 
+	float:left;
+}
+#text_box_button{
+	width:180px; 
+	height:20px;
+}
+.qty_button>div>button{
+	border-radius:20px; 
+	width:75px;
+}
+
+#side_area{
+	width:100%;
+	height:280px;
+	text-align:center;
+}
+#side_area>div>img{
+	width:180px; 
+	height:200px;
+	border:1px solid;
+}
+.side_view{
+	width:180px; 
+	height:200px; 
+	border:1px solid; 
+	float:left; 
+	margin-right:10px;
+}
+.tab_area{
+	width:100%;
+	height:300px;
+}
+.sub_title{
+	width:100%;
+	height:200px;
+	border:2px solid black;
+}
+
+
+
+

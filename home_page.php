@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<!-- Template by Quackit.com -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="style.css"> 
+		<link rel="stylesheet" href="css/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+		<header>
+			<div class="header_left">			
+				<img src="image/shopping_cart1.png">
+			</div>	  
+
+			<div class="header_middle">
+				<p style="font-family:verdana; font-size:15px; font-weight:bold">Welcome to Online Shopping</p><br><br />
+				<form id="search" class="form-inline">
+					<input type="search" class="form-control" size="60" placeholder="search">
+					<input type="button" class="btn btn-success" value="Search" />	
+				</form>
+			</div>     
+				
+			<div class="header_right">
+				<a href="index.php">Sign in </a>  | 
+				<a href="account.php">Register</a>  | 
+				<a href="shoppingcart.php">My Account</a>  | 
+				<a href="checkout">Track Rocord</a>				
+				
+				<div class="support">
+					<p>Cash on Delivery | 30 Day Return</p>
+					<p>24/7 ustomer Service : +88 01711974171</p>
+				</div>
+				
+				<div class="chart_img">
+					<p><img class="image" src="image/mycart.png">My Cart</p>
+				</div>
+			</div> 
+			
+		</header>
+		
+			<nav class="nav_area">
+				<ul class="nav nav-pills">
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"> ELECTRONICS <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">COMPUTER</a></li>
+							<li><a href="#">MOBILE</a></li>
+							<li><a href="#">TELEVISION</a><li>
+							<li><a href="#">VEDIO CAMERA</a><li>
+							<li><a href="#">LIGHT BULBES</a><li>
+							<li><a href="#">IRON</a></li>
+						</ul>
+					</li>
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">MAN<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">SHIRT</a></li>
+							<li><a href="#">PANT</a></li>
+							<li><a href="#">TEE SHIRT</a></li>
+							<li><a href="#">PANJABI</a></li>
+							<li><a href="#">PAYJAMA</a></li>
+							<li><a href="#">BELT</a></li>
+							<li><a href="#">WATCH</a></li>
+							<li><a href="#">FATUA</a></li>
+							<li><a href="#">SUITING & BLAZERS</a></li>
+							<li><a href="#">SOCKS & HOSIERY</a></li>
+						</ul>
+					</li>
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">WOMAN <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">SHAREE</a></li>
+							<li><a href="#">SKIRT</a></li>
+							<li><a href="#">SHALWAR KAMEEZ</a></li>
+							<li><a href="#">JEWELLERY ACCESSORIES</a></li>
+							<li><a href="#">HAND BAG</a></li>
+							<li><a href="#">SCRAF</a></li>
+							<li><a href="#">SUNGLASS</a></li>
+							<li><a href="#">SHAWLS</a></li>
+							<li><a href="#">COSMETICS</a></li>
+						</ul>
+					</li>		
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">BABY & KIDS <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">DRESS</a></li>
+							<li><a href="#">SHOE</a></li>
+							<li><a href="#">OIL</a></li>
+							<li><a href="#">SHAMPOO</a></li>
+							<li><a href="#">BATH & WASH</a></li>
+							<li><a href="#">DIAPER</a></li>
+							<li><a href="#">BABY TRALLY</a></li>
+							<li><a href="#">TOYS</a></li>							
+						</ul>
+					</li>
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">BOOKS & MEDIA <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">CHILDREN'S CLASSIC BOOK</a></li>
+							<li><a href="#">MAGAZIN</a></li>
+							<li><a href="#">SCIENCE FICTION</a></li>
+							<li><a href="#">DISTIONARY</a></li>
+							<li><a href="#">POETRY</a></li>
+							<li><a href="#">COMIC</a></li>
+						</ul>
+					</li>
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">HOSE HOLD <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">LAUNDRY DETERGENT</a></li>
+							<li><a href="#">ALL PURPOSE CLEANER</a></li>
+							<li><a href="#">BASIC TOOLS</a></li>
+							<li><a href="#">WASTEBASKET</a></li>
+							<li><a href="#">BASKET</a></li>
+							<li><a href="#">DUST CLEANER</a></li>
+							<li><a href="#">TOILET PAPER</a></li>
+							<li><a href="#">HANGER</a></li>
+						</ul>
+					</li>
+					<li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">ALL DEPARTMENTS<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">READYMATE GARMENTS</a></li>
+							<li><a href="#">JEWELERY</a></li>
+							<li><a href="#">LEATHER</a></li>
+							<li><a href="#">FOOD</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+			</nav>	
+	
+			<!-- Home page main area -->
+			
+		<main class="main_area">
+			
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+				</ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img class="image" src="image/household1.png">
+					</div>
+
+					<div class="item">
+						<div><img class="image" src="image/household2.png"></div>
+					</div>
+					<div class="item">
+						<img class="image" src="image/household3.jpg">
+					</div>
+					<div class="item">
+						<img class="image" src="image/household4.jpg">
+					</div>
+				</div>
+
+						<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+				
+			
+			</div>
+			
+				
+				<aside class="main_left">
+					<div class="left_area">
+						<div class="deal_view">					
+							<div class="day_deal"><p>Deal Of The Day</p></div>
+							<div class="view_all"><p><a href="#">View All</a></p></div>
+						</div>
+						<p class="hr"></p>
+					
+						<div class="product_des">
+							<div class="carousel slide multi-item-carousel" id="theCarousel">								
+								<div class="carousel-inner">
+									<div class="row">
+										<div class="col-sm-4 col-md-4">
+											<div class="thumbnail"> <img src="image/tre_shirt.jpg">
+												<p>Product Description</p>
+												<p class="rating">
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star-o"></i>(4)</p>
+												<p class="price">Rs. 1000.00</p>
+												<p class="off">Rs. 790 14% Off</p>	
+											</div>
+										</div>
+										<div class="col-sm-4 col-md-4">
+											<div class="thumbnail"> <img src="image/computer.png">
+												<p>Product Destription</p>
+												<p class="rating">
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star-o"></i>(4)</p>
+												<p class="price">Rs. 1000.00</p>
+												<p class="off">Rs. 790 14% Off</p>
+											</div>
+										</div>
+										<div class="col-sm-4 col-md-4">
+											<div class="thumbnail"> <img src="image/jewellery.png">
+												<p>Product Description</p>
+												<p class="rating">
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star-o"></i>(4)</p>
+												<p class="price">Rs. 1000.00</p>
+												<p class="off">Rs. 790 14% Off</p>
+											</div>
+										</div>
+									</div> 		  
+								</div>
+									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+							</div>
+						</div>	
+					</div>
+					
+					<div class="left_area">
+						<div class="deal_view">					
+							<div class="day_deal"><p>New Arrival</p></div>
+							<div class="view_all"><p><a href="#">View All</a></p></div>
+						</div>
+						<p class="hr"></p>
+						<div class="product_des">
+							<div class="carousel slide multi-item-carousel" id="theCarousel">
+								<div class="carousel-inner">
+									<div class="row">
+										<div class="col-sm-4 col-md-4">
+											<div class="thumbnail"> <img src="image/hand_video.jpg">
+											<p>Product Description</p>
+												<p class="rating">
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star-o"></i>(4)</p>
+												<p class="price">Rs. 1000.00</p>
+												<p class="off">Rs. 790 14% Off</p>			
+											</div>
+										</div>
+										<div class="col-sm-4 col-md-4">
+											<div class="thumbnail"> <img src="image/leather.jpg">
+											<p>Product Destription</p>
+												<p class="rating">
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star-o"></i>(4)</p>
+												<p class="price">Rs. 1000.00</p>
+												<p class="off">Rs. 790 14% Off</p>
+											</div>
+										</div>
+										<div class="col-sm-4 col-md-4">
+											<div class="thumbnail"> <img src="image/shari.png">
+											<p>Product Description</p>
+												<p class="rating">
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star color"></i>
+												<i class="fa fa-star-o"></i>(4)</p>
+												<p class="price">Rs. 1000.00</p>
+												<p class="off">Rs. 790 14% Off</p>
+											</div>
+										</div>
+									</div> 		  
+								</div>
+									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+							</div>
+						</div>	
+					</div>
+					
+					<div class="deal_view">					
+						<div class="day_deal"><p>Best Seller</p></div>
+						<div class="view_all"><p><a href="#">View All</a></p></div>
+					</div>
+					<p class="hr"></p>
+					<div class="product_des">
+						<div class="carousel slide multi-item-carousel" id="theCarousel">
+							<div class="carousel-inner">
+								<div class="row">
+									<div class="col-sm-4 col-md-4">
+										<div class="thumbnail"> <img src="image/baby_dress.png">
+											<p>Product Description</p>
+											<p class="rating">
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star-o"></i>(4)</p>
+											<p class="price">Rs. 1000.00</p>
+											<p class="off">Rs. 790 14% Off</p>			
+										</div>
+									</div>
+									<div class="col-sm-4 col-md-4">
+										<div class="thumbnail"> <img src="image/skirt.jpg">
+											<p>Product Destription</p>
+											<p class="rating">
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star-o"></i>(4)</p>
+											<p class="price">Rs. 1000.00</p>
+											<p class="off">Rs. 790 14% Off</p>
+
+										</div>
+									</div>
+									<div class="col-sm-4 col-md-4">
+										<div class="thumbnail"> <img src="image/toy.png">
+											<p>Product Description</p>
+											<p class="rating">
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star color"></i>
+											<i class="fa fa-star-o"></i>(4)</p>
+											<p class="price">Rs. 1000.00</p>
+											<p class="off">Rs. 790 14% Off</p>
+										</div>
+									</div>
+								</div> 		  
+							</div>
+								<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+								<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+						</div>
+					</div>
+					
+						
+				</aside>
+			
+				<aside class="main_right">
+					<div class="main_right_top">
+						<h4>Most Reviewed Items</h4>
+						<div class="media">
+							<div class="media-left media_size"><img src="image/tre_shirt1.png"></div>
+							<div class="media-body">
+								<p>Product Description</p>
+								<p class="rating">
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star-o"></i>(4)</p>
+									<p>Rs. 1000.00</p>
+							</div>
+						</div>
+							<p class="line"></p>
+							
+						<div class="media">
+							<div class="media-left media_size"><img src="image/pant.jpg"></div>
+							<div class="media-body">
+								<p>Product Description</p>
+								<p class="rating">
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star-o"></i>(4)</p>
+									<p>Rs. 1000.00</p>
+							</div>
+						</div>
+							<p class="line"></p>
+						
+						<div class="media">
+							<div class="media-left media_size"><img src="image/tre_shirt1.png"></div>
+							<div class="media-body">
+								<p>Product Description</p>
+								<p class="rating">
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star-o"></i>(4)</p>
+									<p>Rs. 1000.00</p>
+							</div>
+						</div>
+							<p class="line"></p>
+							
+						<div class="media">
+							<div class="media-left media_size"><img src="image/tre_shirt1.png"></div>
+							<div class="media-body">
+								<p>Product Description</p>
+								<p class="rating">
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star-o"></i>(4)</p>
+									<p>Rs. 1000.00</p>
+							</div>
+						</div>
+							<p class="line"></p>
+						
+						<div class="media">
+							<div class="media-left media_size"><img src="image/tre_shirt1.png"></div>
+							<div class="media-body">
+								<p>Product Description</p>
+								<p class="rating">
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star color"></i>
+									<i class="fa fa-star-o"></i>(4)</p>
+									<p>Rs. 1000.00</p>
+							</div>
+						</div>
+							<button class="btn btn-success">See More</button>
+					</div>
+					
+					<aside class="main_right_middle">
+					
+						<img src="image/toy.png" height="150px" width="260px" 
+						<p><b>Gift Voucher</b><br>Give the gift of choice with an e-gift voucher!</p>
+						<button class="btn btn-success">Get It Now</button>
+					
+					</aside>
+					
+					<aside class="main_right_bottom">
+						<p><b>NewsLetter<b><br>Sign Up for NewsLetter!</p>
+						<input type="text" size="25" name="text">
+						<button class="btn btn-success">Join Now!</button>
+					</aside>
+					
+				</aside>
+		</main>
+		
+		<div class="last_part">
+		
+			<div class="payment">
+				<h4>Payment Methods</h4>
+				<img src="image/payment_icon.png">
+			</div>
+		
+			<div class="quick_links">		
+				<h4>Quick Links</h4>	
+					<a href="help.php">Help</a><br>
+					<a href="shipping.php">Shipping Policy</a><br>
+					<a href="cancelaton.php">Cancelation & Returns</a><br>
+					<a href="faq.php">FAQ</a><br>
+					<a href="privacy.php">Privacy & Policy</a><br>
+					<a href="disclamer.php">Disclamer</a>			
+			</div>
+		
+			<div class="social">
+				<h4>Lets to be Social</h4>
+				<a href="www.facebook.com"><img src="image/facebook.png"></a>
+				<a href="www.google.com"><img src="image/googleplus.png"></a>
+				<a href="www.twitter.com"><img src="image/twitter.png"></a>
+			</div>
+		
+			<div class="contract">
+				<h4>Contract Us</h4>
+				<p>Bhuiyan Garden<br>
+				House # 7, Road # 1, Block-C<br>
+				Chand Uddan, Mohammadpur<br>
+				Dhaka, Bangladesh.<br>
+				<img src="image/mail.png">info@abdullah.net<br>
+				<img src="image/caller.jpg">+88 01711974171</p>		
+			</div>		
+
+		</div>
+		
+	</body>
+	<footer>
+		<p>All Right to Reserved by Abdullah Soft.</p>
+	</footer>
+</html>
